@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import "compass"; 
+
+$PRIMARY : #1f5081;
+$BUTTON  : #317ecc;
+$PRIMARY_DARK : #13314f;
+
+@import "general";
+@import "smart";
+// @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+*{
+	outline:none;
+}
+
+@font-face {
+	font-family: 'Noto Sans Japanese';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/Noto.woff') format('woff');
+}

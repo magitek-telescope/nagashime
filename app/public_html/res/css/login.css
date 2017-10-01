@@ -1,0 +1,81 @@
+/* line 7, ../scss/login.scss */
+main .first-view {
+  height: 100vh;
+}
+/* line 10, ../scss/login.scss */
+main .first-view .main form {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 22, ../scss/login.scss */
+main .first-view .main form table {
+  margin: 0 auto;
+  width: inherit;
+  height: inherit;
+}
+/* line 27, ../scss/login.scss */
+main .first-view .main form table h1 {
+  font-size: 32px;
+}
+/* line 32, ../scss/login.scss */
+main .first-view .main form input[type="text"],
+main .first-view .main form input[type="email"],
+main .first-view .main form input[type="password"] {
+  width: 150px;
+  color: #555;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+/* line 48, ../scss/login.scss */
+main .first-view .main form input[type="submit"] {
+  color: #fff;
+  text-decoration: none;
+  background: #317ecc;
+  border: solid 1px #fff;
+  padding: 0px 35px;
+  font-size: 18px;
+  transition: 0.5s;
+  font-family: 'Noto Sans Japanese', serif;
+}
+/* line 57, ../scss/login.scss */
+main .first-view .main form input[type="submit"]:hover {
+  color: #317ecc;
+  background: #fff;
+  border: solid 1px #317ecc;
+  cursor: pointer;
+}
+/* line 67, ../scss/login.scss */
+main .first-view .main form select {
+  -webkit-appearance: normal;
+  -moz-appearance: normal;
+  appearance: normal;
+  width: 150px;
+  height: 30px;
+  color: #555;
+  background: #fff;
+  border: solid 1px #ccc;
+  font-size: 14px;
+  border-radius: 2px;
+  position: relative;
+}
+/* line 88, ../scss/login.scss */
+main .first-view .main form select:after {
+  content: '';
+  position: absolute;
+  border-bottom: 10px solid #1f5081;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  top: -10px;
+  right: 20px;
+  z-index: 100;
+}
