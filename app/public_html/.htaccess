@@ -1,10 +1,10 @@
 <Files ~ ".(gif|jpe?g|png|ico|otf|ttf|eot|woff)$">
-	Header set Cache-Control "max-age=2592000, public"
+  Header set Cache-Control "max-age=2592000, public"
 </Files>
 
 <IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^/(.*)$ /$1.php [L]
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^/(.*)$ /$1.php [L]
 </IfModule>
